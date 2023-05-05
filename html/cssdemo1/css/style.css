@@ -1,0 +1,79 @@
+/*  */
+*{
+    color: black;
+}
+/* 2. type selector */
+h1{
+    color: red;
+}
+/* 3. class selector | element selector */
+.heading{
+    color: green;
+}
+/* id selector */
+/* grouping selector */
+#myHeading, [target]{
+    color: burlywood;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+/* !important */
+
+/* attribute selector */
+
+/* [target]{
+    text-decoration: none;
+    text-transform: uppercase;
+} */
+
+/* combinator */
+div h1{
+    font-size: 40px;
+}
+div h1::first-letter{
+    font-size: 90px;
+}
+/* pseudo class */
+a:visited{
+    color: aqua;
+}
+
+p::first-letter{
+    font-size: 40px;
+    color: darkblue;
+}
+
+body{
+    color: white;
+   
+
+}
+.container{
+    width: 90%;
+    background-color:cyan;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgb(196, 142, 142);
+}
+
+.container h1{
+
+    padding-top: 20px;
+    padding-left: 20px;
+    text-transform: uppercase;
+    letter-spacing:capitalize;
+    font-variant: small-caps;
+    text-align: center;
+    letter-spacing: 5px;
+    font-variant: small-caps;
+    text-shadow: 2px 2px;
+
+}
+
+span{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: darkblue;
+}
+
+

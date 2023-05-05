@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            width: 30px;
+        }
+        table{
+            width: 80vw;
+            margin: auto;
+
+        }
+        table, th, td{
+            /* border-width: 2px;
+            border-style: solid;
+            border-color: purple; */
+            /* shorthand properties of border */
+            border: 2px solid purple;
+            border-collapse: collapse;
+            text-align: center;
+
+        }
+        #total{
+            text-align: end;
+
+        }
+        
+
+    </style>
+</head>
+<body>
+    <h1>Course Page</h1>
+    <table>
+
+        <thead>
+            <tr>
+                <td>No</td>
+                <td>Course</td>
+                <td>Thumbnail</td>
+                <td>Duration</td>
+                <td>Price</td>
+                <td>Remark</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Web Design</td>
+                <td><img src="https://api.istad.co/media/image/e0f820af-e8b1-41a6-b780-9ecdb6de9a08.png" alt=""></td>
+                <td rowspan="2">60 hours</td>
+                <td>168$</td>
+                <td>Miduim-Level</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Spring </td>
+                <td><img src="https://api.istad.co/media/image/c8c41751-3bc0-4f07-9658-7d95efbae692.png" alt=""></td>
+                <!-- <td>60 hours</td> -->
+                <td>240$</td>
+                <td>Miduim-Level</td>
+
+                
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Web Design</td>
+                <td><img src="https://api.istad.co/media/image/e0f820af-e8b1-41a6-b780-9ecdb6de9a08.png" alt=""></td>
+                <td rowspan="4">70 hours</td>
+                <td>168$</td>
+                <td>Miduim-Level</td>
+
+                
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Web Design</td>
+                <td><img src="https://api.istad.co/media/image/e0f820af-e8b1-41a6-b780-9ecdb6de9a08.png" alt=""></td>
+                <!-- <td>70 hours</td> -->
+                <td>168$</td>
+                <td>Miduim-Level</td>
+
+                
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Web Design</td>
+                <td><img src="https://api.istad.co/media/image/e0f820af-e8b1-41a6-b780-9ecdb6de9a08.png" alt=""></td>
+                <!-- <td>70 hours</td> -->
+                <td>168$</td>
+                <td>Miduim-Level</td>
+
+                
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Web Design</td>
+                <td><img src="https://api.istad.co/media/image/e0f820af-e8b1-41a6-b780-9ecdb6de9a08.png" alt=""></td>
+                <!-- <td>70 hours</td> -->
+                <td>168$</td>
+                <td>Miduim-Level</td>
+
+                
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="5" id="total">Total</td>
+                <td>6</td>
+            </tr>
+        </tfoot>
+        
+    </table>
+</body>
+</html>

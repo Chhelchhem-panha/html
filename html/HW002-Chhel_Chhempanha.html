@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Khmer:wght@100;300;500;900&display=swap" rel="stylesheet">
+    <style>
+        *{
+            font-family: 'Noto Serif Khmer', serif;
+        }
+        body{
+            background-color: whitesmoke;
+        }
+        h1{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+        a{
+            text-decoration: none;
+        }
+        li{
+            list-style-type: none;
+            display: inline-block;
+        }
+        .banner{
+            width: 100vw;
+            /* background-color: blueviolet; */
+        }
+        .banner img, .card img{
+            width: 100%;
+
+        }        
+        .container {
+            width: 90vw;
+            margin: auto;
+            /* background-color:white; */
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            margin-bottom: 30px;
+        }
+        /* style for card course */
+        .card{
+            width: 330px;
+            background-color: white;
+            /* display: inline-block; */
+            /* margin: 30px; */
+            border-radius: 20px;
+            /* overflow: hidden; */
+        }
+        .card img{
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+        h2, p{
+            padding-left: 10px;
+        }
+        .top-course {
+            width: 90vw;
+            /* background-color:burlywood; */
+            margin: auto;
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+        .item {
+            max-width: 400px;
+            display: inline-block;
+        }
+        .item img {
+            width: 100%;
+            border-radius: 15px;
+        }
+        iframe{
+            width: 30vw;
+            height: 30vh;
+        }
+    </style>
+
+
+</head>
+<body>
+    <!-- Header -->
+    <div class="">
+        <h1>ចុះឈ្មោះឥឡូវនេះ</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="https://www.apple.com/" target="_new">Home</a>
+                </li>
+                <li>
+                    <a href="./aboutus.html" target="_new">Course</a>
+                </li>
+                <li>
+                    <a href="./course.html" target="_new">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <!-- End header -->
+
+    <!-- Main content -->
+    <section class="banner">
+        <img src="https://cdn.pixabay.com/photo/2014/12/29/15/36/business-582912_960_720.jpg" alt="">
+    </section>
+    <hr>
+    <section class="popular-course">
+        <h2>Popular Course</h2>
+        <div class="container">
+            <div class="card">
+                <img src="https://eduport.webestica.com/assets/images/courses/4by3/11.jpg" alt="">
+                <div class="card-body">
+                    <h2>Web Design</h2>
+                    <p>Build static website</p>
+                    <p>70 hours</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://eduport.webestica.com/assets/images/courses/4by3/12.jpg" alt="">
+                <div class="card-body">
+                    <h2>Web Design</h2>
+                    <p>Build static website</p>
+                    <p>70 hours</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://eduport.webestica.com/assets/images/courses/4by3/06.jpg" alt="">
+                <div class="card-body">
+                    <h2>Web Design</h2>
+                    <p>Build static website</p>
+                    <p>70 hours</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://eduport.webestica.com/assets/images/courses/4by3/09.jpg" alt="">
+                <div class="card-body">
+                    <h2>Web Design</h2>
+                    <p>Build static website</p>
+                    <p>70 hours</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <h2>Top Course</h2>
+    <section class="top-course">          
+            <div class="item">
+                <img src="https://eduport.webestica.com/assets/images/courses/4by3/10.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="https://eduport.webestica.com/assets/images/courses/4by3/13.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="https://eduport.webestica.com/assets/images/courses/4by3/11.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- end main content -->
+
+    <!-- iframe -->
+    <section class="istad">
+        <iframe src="https://istad.co/" frameborder="0"></iframe>
+        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fistad.co&tabs&width=340&height=130&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="130" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>       
+    </section>
+    <section class="video">
+        <iframe width="885" height="498" src="https://www.youtube.com/embed/iE8tZ0hn2Ws" title="Java GUI Tutorial - Make a Login GUI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </section>
+    
+
+    <!-- end iframe -->
+
+    <!-- footer -->
+    <footer>
+        <h1>Footer</h1>
+        <img src="https://eduport.webestica.com/assets/images/logo.svg" alt="">
+        <article>
+            <p>
+                Eduport education theme, built specifically for the education centers which is dedicated to teaching and involve learners.
+            </p>
+        </article>
+    </footer>
+</body>
+</html>

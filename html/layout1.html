@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <link rel="icon" href="https://istad.co/resources/img/logo_md.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:wght@500&family=Lobster&family=Noto+Serif+Khmer:wght@100;400;500;900&family=Open+Sans:wght@300;500;600&family=Smokum&family=Tilt+Neon&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Noto Serif Khmer', serif;
+        }
+        body {
+            background-color: whitesmoke;
+        }
+        h1 {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding-top: 10px;
+            padding-bottom: 15px;
+        }
+        a {
+            text-decoration: none;
+        }
+        li {
+            list-style-type: none;
+            display: inline-block;
+        }
+        /* style for banner */
+        .banner {
+            width: 100vw;
+            background-color: blueviolet;
+        }
+        .banner img, .card img {
+            width: 100%;
+        }
+        .container {
+            width: 90vw;
+            margin: auto;
+            background-color: brown;
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            margin-bottom: 30px;
+        }
+        /* style for card course */
+        .card {
+            width: 330px;
+            background-color: white;
+            /* display: inline-block; */
+            /* margin: 30px; */
+            border-radius: 20px;
+            /* overflow: hidden; */
+        }
+        .card img {
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+        h2, p {
+            padding-left: 10px;
+        }
+        .top-course {
+            width: 90vw;
+            background-color: blueviolet;
+            margin: auto;
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+        .item {
+            max-width: 400px;
+            display: inline-block;
+        }
+        .item img {
+            width: 100%;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- header start -->
+    <header class="">
+        <h1>ចុះឈ្មោះឥឡូវនេះ</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Course</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- end header -->
+    <!-- main content start -->
+    <main>
+        <section class="banner">
+            <img src="https://cdn.pixabay.com/photo/2014/12/29/15/36/business-582912_960_720.jpg" alt="">
+        </section>
+        <hr>
+        <section class="popular-course">
+            <h2>Popular Course</h2>
+            <div class="container">
+                <div class="card">
+                    <img src="https://eduport.webestica.com/assets/images/courses/4by3/11.jpg" alt="">
+                    <div class="card-body">
+                        <h2>Web Design</h2>
+                        <p>Build static website</p>
+                        <p>70 hours</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://eduport.webestica.com/assets/images/courses/4by3/11.jpg" alt="">
+                    <div class="card-body">
+                        <h2>Web Design</h2>
+                        <p>Build static website</p>
+                        <p>70 hours</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://eduport.webestica.com/assets/images/courses/4by3/11.jpg" alt="">
+                    <div class="card-body">
+                        <h2>Web Design</h2>
+                        <p>Build static website</p>
+                        <p>70 hours</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://eduport.webestica.com/assets/images/courses/4by3/11.jpg" alt="">
+                    <div class="card-body">
+                        <h2>Web Design</h2>
+                        <p>Build static website</p>
+                        <p>70 hours</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="card">
+                    <img src="https://eduport.webestica.com/assets/images/courses/4by3/12.jpg" alt="">
+                    <div class="card-body">
+                        <h2>Web Design</h2>
+                        <p>Build static website</p>
+                        <p>70 hours</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://eduport.webestica.com/assets/images/courses/4by3/12.jpg" alt="">
+                    <div class="card-body">
+                        <h2>Web Design</h2>
+                        <p>Build static website</p>
+                        <p>70 hours</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://eduport.webestica.com/assets/images/courses/4by3/12.jpg" alt="">
+                    <div class="card-body">
+                        <h2>Web Design</h2>
+                        <p>Build static website</p>
+                        <p>70 hours</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://eduport.webestica.com/assets/images/courses/4by3/12.jpg" alt="">
+                    <div class="card-body">
+                        <h2>Web Design</h2>
+                        <p>Build static website</p>
+                        <p>70 hours</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="card">
+                    <img src="https://eduport.webestica.com/assets/images/courses/4by3/09.jpg" alt="">
+                    <div class="card-body">
+                        <h2>Web Design</h2>
+                        <p>Build static website</p>
+                        <p>70 hours</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://eduport.webestica.com/assets/images/courses/4by3/09.jpg" alt="">
+                    <div class="card-body">
+                        <h2>Web Design</h2>
+                        <p>Build static website</p>
+                        <p>70 hours</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://eduport.webestica.com/assets/images/courses/4by3/09.jpg" alt="">
+                    <div class="card-body">
+                        <h2>Web Design</h2>
+                        <p>Build static website</p>
+                        <p>70 hours</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://eduport.webestica.com/assets/images/courses/4by3/09.jpg" alt="">
+                    <div class="card-body">
+                        <h2>Web Design</h2>
+                        <p>Build static website</p>
+                        <p>70 hours</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <h2>Top Course</h2>
+        <section class="top-course">
+            <div class="item">
+                <img src="https://eduport.webestica.com/assets/images/courses/4by3/11.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="https://eduport.webestica.com/assets/images/courses/4by3/12.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="https://eduport.webestica.com/assets/images/courses/4by3/09.jpg" alt="">
+            </div>
+            
+        </section>
+    </main>
+    <!-- end main content -->
+    <!-- start footer -->
+    <footer>
+
+    </footer>
+    <!-- end footer -->
+</body>
+
+</html>
